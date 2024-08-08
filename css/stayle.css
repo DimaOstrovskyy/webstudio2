@@ -1,37 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.hover-text {
+
+body {
     font-family: "Roboto";
-    color: black;
 }
-.hover-text:hover {
-    color: rgb(57, 141, 250);
-}
-.first-half {
-    font-family: "Raleway";
-    color: rgb(57, 141, 250);
-}
-.text1 {
-    background-color: rgb(23, 3, 39);
-}
-.first-half2 {
+
+.main-section-div--p {
     color: rgb(0, 0, 0);
 }
 
-.text3 {
-    color: white;
+.main-section-div--p:hover {
+    color: rgb(57, 141, 250);
 }
 
-.first-half3 {
+.header-section--span {
     font-family: "Raleway";
+    color: rgb(57, 141, 250);
+}
+
+.header-section--span2 {
+    font-family: "Raleway";
+    color: black;
+}
+
+.footer-section {
+    background-color: rgb(23, 3, 39);
+}
+
+.footer-section--span2 {
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+}
+
+.footer-section--div2 {
     color: white;
 }
 
-.text2 {
-    font-family: "Roboto";
+.footer-section--span {
+    font-family: "Raleway";
+    color: rgb(57, 141, 250);
 }
 
-.text4 {
-    font-family: "Roboto";
+.header-div--li {
+    list-style-type: none;
+}
+
+.header-div--li a {
+    color: black;
+    text-decoration: none
+}
+
+.header-div--li a:hover {
+    color: rgb(57, 141, 250);
+
 }
